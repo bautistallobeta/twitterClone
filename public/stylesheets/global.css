@@ -1,0 +1,43 @@
+*{
+    font-family: 'Roboto Serif', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    margin: 0px
+}
+.menuHeader{
+    padding: 10px 40px 10px 40px;
+    height: 100px;
+    margin-top: 0px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: #151D3B;
+    color: #DADBBD;
+}
+
+.menuHeader div {
+    width: 50%;
+}
+
+.menuHeader a{
+    color: #DADBBD;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 6px;
+}
+.menuHeader a:hover{
+    color: #eaebd7;
+    background-color: #232e58;
+    text-align: center;
+}
+
+.leftHeader{
+    text-align: left;
+}
+
+.rightHeader{
+    text-align: right;
+}
+
