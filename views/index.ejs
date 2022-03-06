@@ -2,90 +2,88 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TWITTER CLONE</title>
-
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:wght@300&display=swap" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
-  <link rel="stylesheet" href="./stylesheets/global.css">
+  <%- include('./partials/head') %>
+    <link rel="stylesheet" href="./stylesheets/index.css">
 </head>
 
 <body>
   <%- include('./partials/header')%>
 
     <section class="tweetContainer">
+      <h2 class="latestTweets">Latest Tweets</h2>
       <div class="tweet">
-        <h3 class="username">
-          <span class="material-icons md-48">account_circle</span>
+        <h3 class="user">
+          <span class="material-icons">account_circle</span>
           @usuario1234
         </h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, beatae, earum laudantium aliquam illum
           debitis alias minima nemo pariatur labore vel ex doloribus unde architecto sequi iste maxime nostrum corrupti.
         </p>
-        <button>
-          <span class="material-icons">
-            favorite_border
-          </span>
-        </button>
-        <button>
-          <span class="material-icons">
-            question_answer
-          </span>
-        </button>
-        <p>
+        <div class="interactionButtonContainer">
+          <button class="likeButton">
+            <span class="material-icons">
+              favorite_border
+            </span>
+          </button>
+          <button class="commentButton">
+            <span class="material-icons">
+              question_answer
+            </span>
+          </button>
+        </div>
+        <p class="tweetDate">
           Publicado 02/03/22
         </p>
       </div>
 
 
       <div class="tweet">
-        <h3 class="username">
+        <h3 class="user">
           <span class="material-icons md-48">account_circle</span>
           @usuario1234
         </h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, beatae, earum laudantium aliquam illum
           debitis alias minima nemo pariatur labore vel ex doloribus unde architecto sequi iste maxime nostrum corrupti.
         </p>
-        <button>
-          <span class="material-icons">
-            favorite_border
-          </span>
-        </button>
-        <button>
-          <span class="material-icons">
-            question_answer
-          </span>
-        </button>
-        <p>
+        <div class="interactionButtonContainer">
+          <button class="likeButton">
+            <span class="material-icons">
+              favorite_border
+            </span>
+          </button>
+          <button class="commentButton">
+            <span class="material-icons">
+              question_answer
+            </span>
+          </button>
+        </div>
+        <p class="tweetDate">
           Publicado 02/03/22
         </p>
       </div>
 
 
       <div class="tweet">
-        <h3 class="username">
+        <h3 class="user">
           <span class="material-icons md-48">account_circle</span>
           @usuario1234
         </h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, beatae, earum laudantium aliquam illum
           debitis alias minima nemo pariatur labore vel ex doloribus unde architecto sequi iste maxime nostrum corrupti.
         </p>
-        <button>
-          <span class="material-icons">
-            favorite_border
-          </span>
-        </button>
-        <button>
-          <span class="material-icons">
-            question_answer
-          </span>
-        </button>
-        <p>
+        <div class="interactionButtonContainer">
+          <button class="likeButton">
+            <span class="material-icons">
+              favorite_border
+            </span>
+          </button>
+          <button class="commentButton">
+            <span class="material-icons">
+              question_answer
+            </span>
+          </button>
+        </div>
+        <p class="tweetDate">
           Publicado 02/03/22
         </p>
       </div>
